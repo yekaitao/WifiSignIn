@@ -9,24 +9,14 @@
     android:background="@drawable/bg_src_morning"
     tools:context=".ui.activity.LoginActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:gravity="center"
-        android:text="欢迎登陆wifisignin"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#FF6347"
-        android:textIsSelectable="false"
-        android:textSize="30dp" />
+
 
     <EditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/phone"
-        android:hint="手机号"
+        android:hint="请输入手机号"
         android:inputType="number"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
